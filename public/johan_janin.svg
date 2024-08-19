@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff7f11;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-5 {
+        stroke-width: 7px;
+      }
+
+      .cls-4 {
+        stroke-width: 6px;
+      }
+
+      .cls-5 {
+        stroke-linecap: square;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g>
+    <line class="cls-4" x1="97.17" y1="20.08" x2="97.17" y2="77.76"/>
+    <path class="cls-4" d="M97.17,77.76c0,18.32-14.85,33.17-33.17,33.17s-33.17-14.85-33.17-33.17"/>
+  </g>
+  <g>
+    <line class="cls-3" x1="43.2" y1="32.29" x2="43.2" y2="77.76"/>
+    <line class="cls-5" x1="84.8" y1="32.29" x2="43.2" y2="32.29"/>
+    <path class="cls-3" d="M84.8,77.76c0,11.49-9.31,20.8-20.8,20.8-11.49,0-20.8-9.31-20.8-20.8"/>
+  </g>
+  <g>
+    <polygon class="cls-1" points="61.25 17.09 62.87 23.09 27.83 23.07 27.83 17.07 61.25 17.09"/>
+    <polygon class="cls-2" points="100.17 17.07 100.17 23.07 70.81 23.11 66.8 23.11 65.17 17.07 100.17 17.07"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+@import "./theme";
+
+*,
+::before,
+::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--theme: #{$theme};
+}
+
+body {
+	padding: 15px;
+	font-family: 'Courier New', Courier, monospace;
+}

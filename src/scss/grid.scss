@@ -1,0 +1,26 @@
+@import "./rounded_square";
+@import "./theme";
+
+#grid {
+	@include rounded_square(transparent, var(--tiles-size, 10px));
+	width: 90vw;
+	margin: 0 auto;
+
+	.grid_content_wrapper {
+		> * {
+			transition: 0.15s;
+
+			width: 100%;
+			height: 100%;
+			border-radius: 5px;
+		}
+
+		&:hover,
+		&.dragging {
+			@include rounded_square($theme, var(--tiles-size, 10px));
+			> * {
+				translate: 10px -10px;
+			}
+		}
+	}
+}

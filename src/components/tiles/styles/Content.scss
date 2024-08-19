@@ -1,0 +1,11 @@
+#main {
+  background-color: #f1f1f1;
+  font-size: 12.5px;
+  padding: 5px 10px;
+  display: grid;
+  place-content: center;
+
+  @media screen and (max-width: 700px) {
+    font-size: 11px;
+  }
+}
